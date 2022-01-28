@@ -5,16 +5,15 @@
 }
 body
 {
-    background-image: url();
-    background-size: cover;
+    background-size:contain ;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 .menu-bar
 {
-    background: rgb(red, green, blue);
+    background: rgb(0, 100, 0);
     text-align: center;
-}
+    }
 .menu-bar ul
 {
     display: inline-flex;
