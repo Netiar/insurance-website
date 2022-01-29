@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body
 {
@@ -19,10 +20,20 @@ body
     display: inline-flex;
     list-style: none;
     color: black;
+    justify-content: center;
 }
 .menu-bar ul li
 {
     width: 120px;
-    margin: 15px;
+    margin: 10px;
     padding: 15px;
+    height: 35px;
+}
+header
+{
+    text-align: center;
+    padding-top: 15%;
+   /* background-image: url(images/#hero-cover.3.png);*/
+    /*height: 500px;
+    width: 1024px;*/
 }
