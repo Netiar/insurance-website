@@ -1,31 +1,36 @@
-*{
-    padding: 0%;
-    margin: 0%;
+.container
+{
+    padding: 0 auto;
+    margin: 0 auto;
     box-sizing: border-box;
     scroll-behavior: smooth;
     width: 960px;
     text-align: center;
+    height: 1500px;
     font:montserrat ;
+    border:  1px solid crimson;
 } 
-body
+header
 {
     background-size:cover ;
     background-position: center;
     font-family: montserrat;
     background-image: url(images/insurancecover.png);
     background-repeat: no-repeat;
-    height: 440px;
-    width: 540px;
-    margin-top: 10px;box-sizing: border-box;
-     
+    height: 540px;
+    width: 960px;
+    box-sizing: border-box;
+    margin-right: 140px; 
+    background-color: gray;   
 }
 .menu-bar
 {
     text-align: center;
-    padding: 0%;
-    margin: 0%;
     text-indent: 13px; 
-    /*word-spacing: 10px;*/
+    width: 960px;
+    height: 5px;
+    background-size: cover;
+    background-position: center; 
 }
 .menu-bar ul
 {
@@ -36,26 +41,43 @@ body
 .menu-bar ul li
 {
     margin-left: 0;
-    height: 30px;
+    height: auto;
     text-align: center;
 }
 header
 {
     text-align: center;
     color: white; 
-    padding-top: 8%;
-    /*height: 500px;
-    width: 1024px;*/
+    padding-top: 10px;
+    height: 500px;
+    width: 960px;
+     
     
 }
 .box1
 {
-    padding:none ;
-    margin: none;
-   /*background-image: url(images/insurancecover.png);*/
-   /* background-origin : content-box;*/
+    text-align: center;
+    width: fit-content;
 }     
 h1
 {
-  font-size: 50px; 
+  font-size: 50px;
+  /*padding-top: 15px;*/ 
+}
+ul {
+   list-style-type: none; 
+   overflow: hidden;
+   font-size: 20px  ;
+   background-color: rgb(187, 184, 184);
+}  
+li
+{
+ float: left; 
+ text-indent: 50px; 
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+   
 }
