@@ -13,8 +13,8 @@
        <section class="header">
            <nav>
                <a href=""class="btn info">BrandName</a>
-               <div class="nav-links">
-                <i class="fa fa-times" ></i>
+               <div class="nav-links" id="navlinks">
+                <i class="fa fa-times"onclick="hidemenu()"></i>
                    <ul>
                        <li><a href="">Home</a></li>
                        <li><a href="">Product</a></li>
@@ -25,7 +25,7 @@
                        
                    </ul>
                </div>
-               <i class="fa fa-bars" ></i>
+               <i class="fa fa-bars" onclick="showmenu()"></i>
            </nav>
 
          <div class="text-box">
@@ -35,6 +35,40 @@
              <a href=""class="btn info">Learn more</a>
          </div>  
       </section>
- </div> 
+   
+   <section class="course">
+       <div class="row">
+           <div class="course-col">
+               <img src="images/Screenshot 1.png" alt="">
+               <h3>Peace of Mind</h3>
+               <p>the quick fox jumps over the<br> lazy dog</p>
+           </div>
+           <div class="course-col">
+               <img src="images/Screenshot 1.png" alt="">
+            <h3>Set For Life</h3>
+            <p>the quick fox jumps over the<br> lazy dog</p>
+           </div>
+           <div class="course-col">
+               <img src="images/Screenshot2.png" alt="">
+            <h3>100% Satisfaction</h3>
+            <p>the quick fox jumps over the<br> lazy dog</p>
+           </div>
+
+       </div>
+
+   </section>
+ 
+ 
+ 
+
+ <script>
+     var navlinks=document.getElementById("navlinks")
+     function showmenu(){
+         navlinks.style.right ="0"
+     }
+     function hidemenu(){
+         navlinks.style.right ="-200px"
+     }
+ </script>
 </body>
 </html> 
