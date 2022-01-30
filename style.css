@@ -104,12 +104,23 @@ nav .fa{display: none;}
     width: 80%;
     margin: auto;
     text-align: center;
+    background-color: #f8f8fc;
 }
 .row 
 {
     display: flex;
     justify-content: space-between;
     margin-top: -10%;
+}
+.course-col
+{
+    background-color: #fff;
+    border-radius: 1px;
+    box-sizing: border-box;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+
 }  
     
     
