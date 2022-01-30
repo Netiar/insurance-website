@@ -1,83 +1,13 @@
-.container
-{
-    padding: 0 auto;
-    margin: 0 auto;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    width: 960px;
-    text-align: center;
+container{
+    margin : 0;
+    padding: 0; 
     height: 1500px;
-    font:montserrat ;
-    border:  1px solid crimson;
-} 
-header
-{
-    background-size:cover ;
-    background-position: center;
-    font-family: montserrat;
-    background-image: url(images/insurancecover.png);
-    background-repeat: no-repeat;
-    height: 540px;
     width: 960px;
-    box-sizing: border-box;
-    margin-right: 140px; 
-    background-color: gray;   
-}
-.menu-bar
-{
-    text-align: center;
-    text-indent: 13px; 
-    width: 960px;
-    height: 5px;
-    background-size: cover;
-    background-position: center; 
-}
-.menu-bar ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: white;
-}
-.menu-bar ul li
-{
-    margin-left: 0;
-    height: auto;
-    text-align: center;
-}
-header
-{
-    text-align: center;
-    color: white; 
-    padding-top: 10px;
-    height: 500px;
-    width: 960px;
-     
+    border-color: maroon;
+    border-style: 1px;
     
-}
-.box1
-{
-    text-align: center;
-    width: fit-content;
-}     
-h1
-{
-  font-size: 50px;
-  /*padding-top: 15px;*/ 
-}
-ul {
-   list-style-type: none; 
-   overflow: hidden;
-   font-size: 20px  ;
-   background-color: rgb(187, 184, 184);
-}  
-li
-{
- float: left; 
- text-indent: 50px; 
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
+} 
+.header{}
    
-}
+    
+    
