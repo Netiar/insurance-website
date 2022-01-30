@@ -104,6 +104,12 @@ nav .fa{display: none;}
     width: 80%;
     margin: auto;
     text-align: center;
-}   
+}
+.row 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10%;
+}  
     
     
