@@ -156,6 +156,7 @@ nav .fa{display: none;}
    border-radius: 10px;
    background-color: #fff;
    height: 500px;
+   box-shadow: rgb(202, 197, 197);
 }
 industry-col img
 {
@@ -163,4 +164,9 @@ industry-col img
     margin-left:5px;
     margin-right: 15px;
     border: radius 50%;
-}   
+}
+.industry-col .fa
+{
+    margin-bottom: 30px;
+    color: #f44336;
+}
