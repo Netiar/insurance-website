@@ -123,6 +123,17 @@ nav .fa{display: none;}
 
 }@media(max-width:700px){
     .row{flex-direction: column;}
+}
+.insurance
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 220px ;
+    flex-basis: 32%;
+}
+@media(max-width:700px){
+    .row{flex-direction: column;}
 }  
     
     
