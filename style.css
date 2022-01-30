@@ -1,9 +1,10 @@
 *{
     margin :0;
     padding: 0; 
+    font-family:montserrat;
 } 
 .header{
-    min-height: 100vh;
+    min-height: 120vh;
     width: 100%;
     background-image: url(images/insurancecover.png);
     background-position: center;
@@ -13,10 +14,28 @@
 nav
 {
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 5%;
     justify-content: space-between;
     align-items: center;
-}    
+} 
+.nav-links
+{
+ flex: 1;
+ text-align: center;
+} 
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 9px;
+    position: relative;
+}
+.nav-links ul li a
+{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
    
     
     
