@@ -197,9 +197,15 @@ industry-col img
   width: 100%;
 
 }
-.wrapper
+.subscribe-box
 {
-
+top: 50%;
+left: 50%;
+transform: translate(-50%, 50%);
+position: relative;
+padding: 70px 50px;
+width: 80%;
+text-align: center
 }
 
 
