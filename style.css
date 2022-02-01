@@ -172,20 +172,35 @@ industry-col img
 }
 .subsribe
 {
-   height: 100vh;
    background-color: #f8f8fc;
    width: 80%;
-   margin: auto;
+   height: fit-content;
+   margin-left: 1px;
    padding-top: 100px;
    flex-basis: fit-content ;
-   text-align: center;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 50vh;
 }
-.subsribe-col
+ .subsribe-col
 {
-    float: left;
-    width: 16.66%;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 20%;
 
+} 
+.subsribe-col img
+{
+  width: 100%;
+
+}
+.mail
+{
+
+}
 
 
 
